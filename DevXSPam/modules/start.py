@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DevanshXBots"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DevanshXBotChats")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/The_Radiux_Network"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Radiux_Support")
     ],
     [
-        Button.url("• sᴏᴜʀᴄᴇ •", "https://github.com/Devansh-Bots/SpamX")
+        Button.url("• sᴏᴜʀᴄᴇ •", "https://te.legra.ph/file/2e1ae025e30642b4efe9c.jpg")
     ]
 ]
 
@@ -34,8 +34,8 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"➥ **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝐃ᴇᴠᴀɴsʜ](https://t.me/DamnDevansh)**\n\n"
-        TEXT += f"➥ **DᴇᴠXSᴘᴀᴍ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
+        TEXT += f"➥ **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝐑ᴀᴅɪᴜx](https://t.me/The_RealRadiux)**\n\n"
+        TEXT += f"➥ **𝐑ᴀᴅɪᴜx-𝐒ᴘᴀᴍ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"➥ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"➥ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
